@@ -1,0 +1,108 @@
+Date,Reason,Impact,Duration,Tags
+2025-02-11,Patient Charts(Cases) aren’t loading,High,30m,DB
+2025-01-09,API incompatibility,High,45m,Breaking
+2024-12-20,Microservice migration,High,1h,Refactoring
+2024-11-26,API bug,Medium,1h,Breaking
+2024-11-06,UI bug,Low,2d,UI
+2024-09-06,API incompatability,High,45m,Breaking
+2024-07-24,Azure migration,Medium,1h,"Infra, Refactoring"
+2024-07-22,Azure down,Medium,1h,"External, Infra"
+2024-04-26,Microservice migration,High,40m,"Refactoring, UI"
+2024-04-18,UI bug,Medium,1d,UI
+2024-04-02,External API down,Medium,1d,External
+2024-03-05,AWS down,High,2h,"External, Infra"
+2024-03-01,API incompatability,Medium,30m,Breaking
+2024-03-01,API incompatability,High,20m,Breaking
+2024-03-01,UI bug,Medium,10m,UI
+2023-11-10,"NPE, UI bug",High,3h,"Null, UI"
+2023-11-10,"Microservice migration, data migration, too many requests",High,2h,"DB, Refactoring, Over-fetch"
+2023-10-02,"Library bug, flaky tests",High,30m,Framework
+2023-09-29,Microservice migration,Medium,1h,Refactoring
+2023-08-28,"Missing DB migration, CI/CD bug",High,20m,"CI/CD, DB"
+2023-07-18,"Microservice migration, cascading timeouts, big payload",High,15m,"Over-fetch, Refactoring"
+2023-07-17,Application bug,Low,2w,Breaking
+2023-04-26,"Refactoring, memory",High,45m,"Over-fetch, Refactoring"
+2023-03-30,"Microservice migration, over fetching, memory, ",High,2h,"Over-fetch, Refactoring"
+2023-03-04,"CI/CD bug, application bug",Medium,12h,"Breaking, CI/CD"
+2023-02-15,"CI/CD bug, DNS migration",High,15m,"CI/CD, Infra"
+2023-01-26,"NPE, refactoring, DB integrity",Medium,24h,"DB, Null, Refactoring"
+2023-01-23,API incompatibility,High,30m,Breaking
+2023-01-10,"DB migration, data pipeline",Low,3d,"DB, Infra"
+2023-01-05,"AWS migration, microservice migration",Low,90m,"Infra, Refactoring"
+2022-12-12,"UI bug, external API down, cache issue",High,40m,"External, UI"
+2022-11-16,"DB lock, DB migration",High,60m,DB
+2022-11-02,"Elastic search, data inconsistency, scheduling",Low,24h,Infra
+2022-11-02,External integration went down,Medium,1h,External
+2022-10-27,"UI bug, APi incompatability, NPE",Medium,3h,"Breaking, Null, UI"
+2022-10-20,"AWS related, unknown",High,30m,"External, Infra"
+2022-10-14,"AWS migration, microservice migration",High,30m,"Infra, Refactoring"
+2022-09-21,"Microservice migration, Infra, CI / CD issues",Low,180m,"CI/CD, Refactoring, Infra"
+2022-09-14,"API incompatibility, UI bug",Low,2w,"Breaking, UI"
+2022-09-09,"Version conflict, microservice / library migration",Low,1w,"Framework, Refactoring"
+2022-09-09,"Authentication, migration",Low,5w,"Framework, Refactoring"
+2022-08-25,"Data inconsistency, scheduler bug, refactoring",High,180m,"Infra, Refactoring"
+2022-08-25,"GC, high CPU, unknown",High,20m,Over-fetch
+2022-08-24,"CI / CD issues, NPE, api compatibility",Medium,5h,"Breaking, CI/CD, Null"
+2022-08-24,"GC, high cpu, unknown",High,30m,Over-fetch
+2022-08-16,Breaking API change,High,150m,Breaking
+2022-08-16,"Overfetching, mobile app bug",High,60m,"Over-fetch, UI"
+2022-08-13,"Old mobile app SDK version, out of date software",Medium,25h,Framework
+2022-07-30,"Memory usage, data out of sync, elastic search",Medium,90m,Infra
+2022-07-29,"GC, out of memory, same container cron",Medium,90m,"Infra, Over-fetch"
+2022-07-11,"GC, out of memory, over fetching",High,60m,Over-fetch
+2022-06-30,UI bug,High,60m,UI
+2022-06-22,"AWS Migration, memory usage, CI / CD issues",High,-,"CI/CD, Infra"
+2022-06-13,"CI / CD issue, DNS issue",High,20m,"CI/CD, Infra"
+2022-06-10,"Long running migration, big index, DB lock acquire, microservice migration",Medium,20m,"DB, Refactoring"
+2022-06-06,Application bug,Medium,7h,Breaking
+2022-05-25,"GC, over fetching, external api",High,20m,"External, Over-fetch"
+2022-05-24,"Data corruption, business logic bug",Low,15m,"Breaking, DB"
+2022-05-23,"DB permissions, maintanance",High,30m,DB
+2022-05-12,"CI / CD race condition, DB migration, column type",Low,120m,"CI/CD, DB"
+2022-04-19,"External API data type incorrect, wrong feature flag",High,20m,"Breaking, External"
+2022-04-14,"CI / CD bug, cache bug",High,10m,CI/CD
+2022-04-12,"Microservice decomposition, overfetching, heavy query memory gc",High,60m,"Over-fetch, Refactoring"
+2022-04-04,"Container memory issues, old jvm, autoscale, gc, load balancing",High,60m,"Framework, Infra, Over-fetch"
+2022-03-24,"Wrong feature flag, server bug",High,35m,Breaking
+2022-03-11,Server logic / DB Query bug,Medium,45m,"Breaking, DB"
+2022-03-10,CI / CD related build bug,Medium,3h,CI/CD
+2022-03-03,"Microservice migration, DB permissions",High,30m,"DB, Refactoring"
+2022-02-27,"Microservice migration, gc, cpu usage",Medium,120m,"Over-fetch, Refactoring"
+2022-02-16,"Self DDoS, UI bug, cache",Medium,12h,"Over-fetch, UI"
+2022-02-08,"Microservice migration, server logic bug",High,3h,"Breaking, Refactoring"
+2022-01-19,"New app, authorization, microservice migration",Low,32h,"Framework, Refactoring"
+2022-01-13,"Self DDoS, autoscaling",High,120m,"Infra, Over-fetch, Framework"
+2022-01-13,Server logic bug,High,80m,Breaking
+2022-01-07,"Microservice migration, infinite DB loop, too many transactions",High,10m,"DB, Refactoring"
+2022-01-06,"Microservice migration, infinite DB loop, too many transactions",High,30m,"DB, Refactoring"
+2021-12-13,"Container memory issues, old jvm, autokill stuck container",High,60m,"Framework, Infra, Over-fetch"
+2021-12-30,"DB overload, graphql timeout",High,90m,"DB, Over-fetch"
+2021-12-22,"Server incompatible DB rows, data corruption, unknown source",Medium,12h,DB
+2021-12-16,"DB lock, slow query, over fetching",High,25m,"DB, Over-fetch"
+2021-12-15,DB locks,High,40m,DB
+2021-12-09,"Autoscaling, insufficient server resource",Medium,45m,Infra
+2021-12-07,Vendor,Low,-,External
+2021-11-01,UI bug + cache issue,High,70m,UI
+2021-11-03,UI bug,High,1h,UI
+2021-10-11,"Serialization error, service API incompatible",Medium,5h,Breaking
+2021-09-27,"Server incompatible DB migration, deployment race condition",High,15m,"CI/CD, DB"
+2021-09-22,DB Locking,High,5m,DB
+2021-09-14,DB down due to vendor,High,50m,"External, Infra"
+2021-09-03,Vendor API breaking change,Medium,6h,External
+2021-09-02,"UI / Server Self DDoS, over fetch",Medium,10h,"Over-fetch, UI"
+2021-08-03,Autoscaling,High,40m,Infra
+2021-07-12,"DB Bottleneck, transaction lock",High,60m,DB
+2021-06-17,Server bottleneck,High,2h,Over-fetch
+2021-06-16,"Bad migration, data loss",High,2h,DB
+2021-06-15,DB Bottleneck,High,10m,DB
+2021-05-26,DB Lock,High,20m,DB
+2021-05-26,UI Bug,Medium,3h,UI
+2021-05-26,Frontend 414 Request too large,Medium,30m,Over-fetch
+2021-05-17,Server breaking change,High,4h,Breaking
+2021-05-13,"Long running migration, DB lock",High,145m,DB
+2021-04-14,"Query over fetch, DB overload, self DDoS",High,5h,"DB, Over-fetch"
+2021-04-08,"Server incompatible DB row, NPE, UI self DDoS, Transaction locking",High,124m,"Breaking, DB, Null"
+2021-03-02,Server incompatible DB migration,High,120m,"Breaking, DB"
+2020-12-03,"Server incompatible DB row, NPE",High,12m,"Breaking, DB, Null"
+2020-09-14,UI self DDoS,High,60m,"Over-fetch, UI"
+2020-06-01,"UI self DDoS, RowExclusiveLocks",High,90m,"DB, UI"
